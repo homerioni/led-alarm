@@ -1,0 +1,361 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, intial-scale=1">
+<title>Светящийся LED-будильник</title>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/responsive.css">
+<link rel="stylesheet" type="text/css" href="vendor/bootstrap-4.0.0/dist/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="vendor/bootstrap-4.0.0/dist/css/bootstrap-grid.min.css">
+<link rel="stylesheet" type="text/css" href="vendor/fontawesome-free/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="fonts/stylesheet.css">
+<link rel="stylesheet" type="text/css" href="vendor/fancybox/dist/jquery.fancybox.min.css">
+	
+<script type="text/javascript" src="js/jquery-3.0.0.js"></script>
+<script type="text/javascript" src="vendor/fancybox/dist/jquery.fancybox.min.js"></script>
+<script type="text/javascript" src="js/customs.js"></script>
+<script type="text/javascript" src="vendor/coundown/jquery.countdown.js"></script>
+<script type="text/javascript" src="vendor/bootstrap-4.0.0/dist/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+	<div class="for_page">
+		<div class="page">
+			<header>
+				<div class="container">
+					<div class="row">
+						<div class="col-xl-8 col-lg-8 col-md-12 col-sm-1 leftBox-header">
+							<i class="fas fa-bars menu-open"></i>
+							<nav class="nav_menu">
+								<i class="fas fa-times menu-close"></i>
+								<ul class="menu">
+									<li><a href="#"><button type="button" data-toggle="modal" data-target="#ModalMagazin1">О магазине</button></a></li>
+									<li><a href="#"><button type="button" data-toggle="modal" data-target="#ModalMagazin2">Доставка</button></a></li>
+									<li><a href="#"><button type="button" data-toggle="modal" data-target="#ModalMagazin3">Гарантия</button></a></li>
+									<li><a href="#"><button type="button" data-toggle="modal" data-target="#ModalMagazin4">Вопросы и ответы</button></a></li>
+									<li><a href="#"><button type="button" data-toggle="modal" data-target="#ModalMagazin5">Преимущества</button></a></li>
+								</ul>
+							</nav>
+						</div>
+						<div class="col-xl-4 col-lg-4 col-md-12 col-sm-11 rightBox-header">
+							<div class="col-xl-5 col-lg-5 col-md-5 col-sm-6 menu-div-article">
+								<span class="menu-article">Артикул #23953330</span>
+							</div>
+							<div class="col-xl-7 col-lg-7 col-md-7 col-sm-6 menu-div-text">
+								<a href="tel:4997043965" class="menu-number">(499) 704-39-65</a>
+								<span class="menu-text">Круглосуточно: 24/7</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</header>
+			<section class="offer-separator">
+				<div class="container">
+					<div class="row">
+						<h1 class="offer-separator-text">Светящийся LED-будильник «ДОСКА ДЛЯ ЗАПИСЕЙ»</h1>
+					</div>
+				</div>
+			</section>
+			<section class="offer">
+				<div class="container">
+					<div class="row">
+						<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 offer-left">
+							<img src="img/offer-img.png" alt="Светящийся LED-будильник с доской для записей">
+							<div class="offer-price">
+								<span class="offer-price-old">2900 руб</span>
+								<span class="offer-price-new">1400 руб</span>
+							</div>
+						</div>
+						<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 offer-right">
+							<h2>Предновогодняя супер скидка закончится через:</h2>
+							<div class="timer">
+								<div id="countdown"></div> 
+							</div>
+							<form class="offer-form">
+								<input type="text" maxlength="30" placeholder="Ваше имя" required>
+								<input type="tel" maxlength="10" placeholder="Ваш номер" required>
+								<input type="email" maxlength="50" placeholder="Ваш email" required>
+								<button type="submit">Заказать сейчас</button>
+							</form>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="description">
+				<div class="container">
+					<div class="row">
+						<div class="col-xl-12">
+							<h2>Светящийся LED будильник с доской для записей</h2>
+						</div>
+						<div class="col-xl-12">
+							<p>Интересный будильник с доской для записей пришел на смену черной доске и стикерам. Он обладает специальной панелью, где можно оставить послание с помощью маркера. Такой будильник станет отличным подарком не только для пожилых людей и забывчивых юных дам, вы сможете презентовать его любимому человеку, для которого каждое утро будете оставлять нежные послания. Достаточно взять специальный маркер, проявить фантазию и ваше короткое сообщение будет ярко светиться в темноте. Если что-то не получилось — достаточно удалить послание ластиком, который располагается на противоположном конце маркера. </p>
+						</div>
+						<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 description-img">
+							<a class="fancybox" href="img/desc-left.png"><img src="img/desc-left.png" alt="Светящийся LED будильник с доской для записей"></a>
+						</div>
+						<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 description-img">
+							<a class="fancybox" href="img/desc-right.png"><img src="img/desc-right.png" alt="Светящийся LED будильник с доской для записей"></a>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="specification">
+				<div class="container">
+					<div class="row">
+						<div class="col-xl-12">
+							<h2>Основные характеристики</h2>
+						</div>
+						<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+							<ul class="specification-list">
+								<li>
+									<div><img src="img/spec-list-1.png" alt=""></div>
+									<span>Наличие USB порта позволит подключить карту памяти</span>
+								</li>
+								<li>
+									<div><img src="img/spec-list-2.png" alt=""></div>
+									<span>Многофункциональный дисплей</span>
+								</li>
+								<li>
+									<div><img src="img/spec-list-3.png" alt=""></div>
+									<span>Маркер с ластиком позволит оставить светящееся послание на дисплее</span>
+								</li>
+								<li>
+									<div><img src="img/spec-list-4.png" alt=""></div>
+									<span>Несколько независимых будильников</span>
+								</li>
+								<li>
+									<div><img src="img/spec-list-5.png" alt=""></div>
+									<span>16 известных мелодий для оповещения</span>
+								</li>
+								<li>
+									<div><img src="img/spec-list-6.png" alt=""></div>
+									<span>Отображает температуру</span>
+								</li>
+								<li>
+									<div><img src="img/spec-list-7.png" alt=""></div>
+									<span>Питание от батареек типа ААА или USB-кабеля</span>
+								</li>
+							</ul>
+							<div class="clear"></div>
+						</div>
+						<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 spec-right">
+							<iframe src="https://www.youtube.com/embed/C1qhdUSoc-c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="reviews">
+				<div class="container">
+					<div class="row">
+						<div class="col-xl-12 reviews-name">
+							<h2>Отзывы покупателей о светящемся LED будильнике</h2>
+						</div>
+						<div class="col-xl-12 reviews-item">
+							<img src="img/reviews-1.png" alt="">
+							<h2>ИРИНА ТУРИКОВА</h2>
+							<p>Приобрела эти часы для себя и моего любимого. Для меня это классный сюрприз, когда просыпаешься раньше него и видешь красивую подсвеченную надпись с приятными словами любви! Я считаю, что начинать с подобного позитива новый день это именно то что нужно! Можно каждый раз писать друг дружке что-то новое, рисовать ) Спасибо!</p>
+						</div>
+						<div class="col-xl-12 reviews-item">
+							<img src="img/reviews-2.png" alt="">
+							<h2>Юля Ленева</h2>
+							<p>Получила неделю назад!! Каждое утро просыпаюсь под них, светятся очень ярко и с самого начала дня дарят приятное и тёплое настроение! Хоть посылка и шла чуть дольше заявленного на 2-3 дня, очень довольна подарком! Спасибо Вам</p>
+						</div>
+						<div class="col-xl-12 reviews-item">
+							<img src="img/reviews-3.png" alt="">
+							<h2>РОМАН МАГСУМОВ</h2>
+							<p>Заказал будильник в подарок сестренке. В итоге, решил оставить себе))) Классная фишка с надписями на экранах, очень нравится, очень классно! Сестренка моя пишет на нем всякие милые глупости:) Спасибо за то, что быстро прислали!</p>
+						</div>
+						<div class="col-xl-12 reviews-item">
+							<img src="img/reviews-4.png" alt="">
+							<h2>Елена Строева</h2>
+							<p>Всегда боялась заказывать в интернете, но со временем страх пропадает! Позвонила, мне ответили на интерисующие меня вопросы очень вежливо и грамотно,я сообщила им свой адрес и посылка пришла через 4 дня! Я очень довольна будильником, к интерьеру подошел как раз!</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="offer-separator">
+				<div class="container">
+					<div class="row">
+						<h1 class="offer-separator-text">Светящийся LED-будильник «ДОСКА ДЛЯ ЗАПИСЕЙ»</h1>
+					</div>
+				</div>
+			</section>
+			<section class="offer-bottom">
+				<div class="container">
+					<div class="row">
+						<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 offer-left">
+							<img src="img/offer-img.png" alt="Светящийся LED-будильник с доской для записей">
+							<div class="offer-price">
+								<span class="offer-price-old">2900 руб</span>
+								<span class="offer-price-new">1400 руб</span>
+							</div>
+						</div>
+						<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 offer-right">
+							<h2>Предновогодняя супер скидка закончится через:</h2>
+							<div class="timer">
+								<div id="countdown2"></div> 
+							</div>
+							<form class="offer-form">
+								<input type="text" maxlength="30" placeholder="Ваше имя" required>
+								<input type="tel" maxlength="10" placeholder="Ваш номер" required>
+								<input type="email" maxlength="50" placeholder="Ваш email" required>
+								<button type="submit">Заказать сейчас</button>
+							</form>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="footer-contact">
+						<a href="#">Политика конфиденциальности</a>
+						<a href="#">Партнерская программа</a>
+					</div>
+					<div class="footer-text">
+						<span>Срочную доставку осуществляет Новая Почта.</span>
+						<span>Доставка оплачивается по тарифам Новой почты при получении</span>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" id="ModalMagazin1">
+			<div class="modal-dialog modal-lg">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h2 class="modal-title">О нашем магазине</h2>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+
+					<div class="modal-body">
+						<p>Наш сайт - часть крупной сети интернет-магазинов, занимающейся розничной продажей популярных товаров уже несколько лет. Все наши товары являются оригиналами высшего качества, ввезены легально и имеют все необходимые сертификаты. У нас одни из самых низких цен, т.к. мы покупаем товары напрямую у производителя.</p>
+						<p>Все наши товары являются оригиналами высшего качества, ввезены легально и имеют все необходимые сертификаты. У нас одни из самых низких цен, т.к. мы покупаем товары напрямую у производителя.</p>
+						<p>Наш магазин имеет свой колл-центр, состоящий из более 300 операторов для оперативного приема всех заказов. У нас есть курьерская служба, обладающая собственным парком автомобилей.</p>
+						<p>Мы доставляем заказы практически во все регионы страны и принимаем большинство способов оплаты товаров, начиная от наложенного платежа и заканчивая различными электронными системами.</p>
+						<p>Мы всегда идем навстречу пожеланиям клиентов. Надеемся, что вы останетесь довольны обращением в наш магазин.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" id="ModalMagazin2">
+			<div class="modal-dialog modal-lg">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h2 class="modal-title">О доставке</h2>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+
+					<div class="modal-body">
+						<p>Мы доставляем практически во все города России, Украины, Беларуси, Казахстана. Доступные способы зависят от региона доставки.</p>
+						<ul style="list-style: none">
+						<li><a href="#del1">Доставка курьером по России</a></li>
+						<li><a href="#del2">Самовывоз в РФ</a></li>
+						<li><a href="#del3">Отправка с помощью Почты РФ</a></li>
+						<li><a href="#del4">Доставка по Украине</a></li>
+						<li><a href="#del5">Доставка по Беларуси</a></li>
+						<li><a href="#del6">Доставка по Казахстану</a></li>
+						</ul>
+						<a name="del1"></a>
+						<h3>Доставка курьером по России</h3>
+						<p>Благодаря нашей собственной службе доставки TNX Express, а также сотрудничеству с региональными курьерскими службами, 
+						мы доставляем курьерами почти во всех крупных города России (более 5000 городов). Сроки доставки в среднем составляют от 2 до 5-10 рабочих дней и зависят от города. По Москве доставка выполняется за 1 день. Стоимость доставки в разные регионы может различаться и в среднем составляет от 300 до 500 рублей. Стоимость доставки по Москве — 369 руб (97 руб. самовывоз), по Московской области — 397-497 руб. Вы сможете уточнить точный срок и стоимость доставки после оформления заказа.</p>
+						<a name="del2"></a>
+						<h3>Самовывоз - пункты выдачи заказов в РФ</h3>
+						<p>У нас есть пункты самовывоза в большом количестве городов России:</p>
+						<p><b>Москва</b>, <b>Санкт-Петербург</b>, Абакан, Архангельск, Астрахань, Белгород, Березники, Благовещенск, Брянск, Великий Новгород, Владимир, Волгоград, Воронеж, Екатеринбург, Иваново, Ижевск, Иркутск, Йошкар-Ола, Калуга, Каменск-Уральский, Кемерово, Киров, Краснодар, Красноярск, Курган, Курск, Липецк, Магнитогорск, Миасс, Нижневартовск, Нижний Новгород, Нижний Тагил, Новороссийск, Новосибирск, Кольцово, Новосибирск, Омск, Орел, Оренбург, Пермь, Петрозаводск, Пятигорск, Ростов-на-Дону, Рязань, Самара, Саратов, Серов, Смоленск, Ставрополь, Сургут, Сыктывкар, Таганрог, Тамбов, Тверь, Тольятти, Томск, Улан-Удэ, Уфа, Хабаровск, Чебоксары, Челябинск, Ярославль, Чита, Новокузнецк, Тюмень, Мурманск, Братск, Казань, Комсомольск-на-Амуре, Альметьевск, Ачинск, Барнаул, Коломна, Лесной, Набережные Челны, Новоуральск, Ноябрьск, Озерск, Орск, Пенза, Петропавловск-Камчатский, Салават, Колпино, Саранск, Снежинск, Советский, Сызрань, Тобольск, Тула, Ульяновск, Ухта, Ханты-Мансийск, Череповец, Южно-Сахалинск, Элиста, Волгодонск, Кострома, Владивосток, Воркута, Нефтекамск, Псков, Шадринск, Глазов, Первоуральск, Октябрьский, Вологда, Краснотурьинск, Симферополь, Фрязино, Зеленоград, Сысерть, Калининград, Владикавказ, Стерлитамак, Ревда, Бердск, Старый Оскол, Якутск, Невинномысск, Выборг, Кстово, Бор, Златоуст, Мичуринск, Дзержинск, Кисловодск, Геленджик, Майкоп, Армавир, Рыбинск, Новочеркасск, Энгельс, Балаково, Березовский, Северодвинск, Железногорск, Коркино, Елец, Ишим, Анапа, Новокуйбышевск, Сочи, Димитровград, Волжский, Канск, Минусинск, Черногорск, Нижнекамск, Шахты, Ленинск-Кузнецкий, Махачкала, Кропоткин, Севастополь, Новоалтайск, Бийск, Кумертау, Арзамас, Саров, Обнинск, Камышин, Белово, Киселевск, Прокопьевск, Междуреченск, Мелеуз, Туймазы, Сарапул, Воткинск, Биробиджан, Нальчик, Петропавловск, Лениногорск, Батайск, Лысьва, Шуя, Лиски, Салехард, Кинешма, Заречный, Юрга, Чапаевск, Уссурийск, Находка, Артем, Кирово-Чепецк, Северск, Ангарск, Всеволожск, Новомосковск, Чайковский, Магадан, Ломоносов, Новочебоксарск, Жигулевск, Троицк, Верхняя Пышма, Полевской, Карпинск, Североуральск, Стрежевой, Чаплыгин, Вышний Волочек, Югорск, Щекино. Сроки доставки до пункта самовывоза в среднем составляют от 2 до 10 дней и зависят от города.</p>
+						<a name="del3"></a>
+						<h3>Отправка с помощью Почты РФ</h3>
+						<p>Мы можем отправить заказ с помощью Почты РФ в любую точку России. Возможна оплата как наложенным платежом, так и по предоплате. Срок доставки почтой РФ из Москвы - в среднем, от 7 до 30 дней. Мы рекомендуем выбирать доставку первыми двумя способами, особенно, если вы живете недалеко от городов, где есть пункты самовывоза, т.к. это значительно быстрее и часто дешевле.</p>
+						<a name="del4"></a>
+						<h3>Отправка по Украине</h3>
+						<p>Большую часть товаров-хитов мы отправляем Новой Почтой в любой город Украины, срок доставки - от 1-2 дней. Стоимость доставки - по тарифам Новой Почты. Доставка в Киеве выполняется нашей собственной курьерской службой в течение 1-го дня. Оплата производится в гривнах. Более подробную информацию о доставке Вы можете уточнить по телефону службы доставки:  (044) 383-43-35.</p>
+						<a name="del5"></a>
+						<h3>Доставка по Беларуси</h3>
+						<p>Все предлагаемые товары мы отправляем в Беларусь. Доставка по Минску осуществляется нашей собственной курьерской службой. В остальные регионы доставка осуществляется с помощью Белпочты. Стоимость доставки сообщит оператор при подтверждении заказа (она значительно дешевле, чем доставка по РФ).</p>
+						<a name="del6"></a>
+						<h3>Доставка по Казахстану</h3>
+						<p>Все предлагаемые товары весом до 14.5 кг мы отправляем в Казахстан. Доставка по Казахстану  осуществляется с помощью Казпочты. Стоимость доставки сообщит оператор при подтверждении заказа.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" id="ModalMagazin3">
+			<div class="modal-dialog modal-lg">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h2 class="modal-title">Гарантийные обязательства</h2>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+
+					<div class="modal-body">
+						<p>Наш интернет-магазин предлагает только оригинальные и абсолютно новые товары, упакованные заводом-изготовителем.</p>
+						<p>На все товары есть необходимые сертификаты и разрешения, которые регламентируются текущим законодательством.</p>
+						<p>К каждому товару прилагается чек и при необходимости гарантийный талон, которые позволяют отремонтировать или заменить товар в сервисных центрах в течении всего гарантийного срока. В среднем гарантийный срок составляет 3 месяца и зависит от модели товара.</p>
+						<p>Пожалуйста, для исключения разногласий, тщательно проверяйте комплектацию и работоспособность товара при его получении.</p>
+						<p>Мы действуем в соответствии с законодательством и Законом о защите прав потребителей, поэтому Вы можете быть уверены, что если Вас по каким-то причинам не устроит купленный Вами товар, то Вы можете отказаться от него и получить уплаченные деньги назад в течение 7 дней с момента покупки (этот срок установлен для дистанционной торговли).</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" id="ModalMagazin4">
+			<div class="modal-dialog modal-lg">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h2 class="modal-title">Вопросы и ответы</h2>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+
+					<div class="modal-body">
+						<p><b>-Как сделать заказ через сайт?</b></p>
+						<p>Нажмите кнопку "заказать", заполните необходимые поля и наши операторы свяжутся с Вами в течении часа в рабочее время.</p>
+						<p><b>-Как заказать товар по телефону?</b></p>
+						<p>Просто позвоните по указанному телефону и скажите оператору, что вы хотите заказать такой-то товар в таком-то количестве. Обязательно скажите оператору артикул товара, который указан справа, без артикула мы не сможем принять заказ, т.к. наш колл-центр работает со 100 000 товаров часто с похожими названиями и по названию товара оператор не сможет оформить заказ. Поэтому мы рекомендуем оформлять заказ на сайте.</p>
+						<p><b>-Как оплатить заказ?</b></p>
+						<p>Оплатить можно наличными при получении, а также с помощью системы Яндекс-Деньги, банковским переводом на наш счет в Сбербанке, банковской картой он-лайн.</p>
+						<p><b>-Сколько времени занимает доставка?</b></p>
+						<p>Мы стараемся максимально быстро доставлять заказы, особенно курьером или в пункты самовывоза в крупных городах. По Москве доставка занимает 1 день, по Санкт-Петербургу - от 3 до 5 рабочих дней, в другие города в среднем от 4 до 12 рабочих дней. Доставка в регионы РФ, Беларуси, Казахстана почтой может занимать от 10 до 25 дней в зависимости от удаленности. Мы рекомендуем выбирать доставку курьером или в пункт самовывоза при такой возможности.</p>
+						<p><b>-Если меня не устроил товар, могу ли я его вернуть?</b></p>
+						<p>Да, в соответствии с законодательством о дистанционной торговле Вы можете вернуть товар в течении 7 дней с момента получения заказа.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" id="ModalMagazin5">
+			<div class="modal-dialog modal-lg">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h2 class="modal-title">Наши преимущества</h2>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+
+					<div class="modal-body">
+						<ol style="margin: 0 30px;">
+							<li>100% гарантия качества. Только оригинальная продукция. Работа напрямую с производителем</li>
+							<li>Вы ничем не рискуете: оплата заказа при получении или другие удобные для Вас способы оплаты</li>
+							<li>Низкие цены</li>
+							<li>Пункты самовывоза в 100 городах</li>
+							<li>Быстрая доставка</li>
+							<li>Качественная поддержка клиентов - круглосуточный колл-центр</li>
+							<li>Низкая стоимость доставки - от 200 руб.</li>
+							<li>Хорошие скидки и акции!</li>
+							<li>Оформление заказа за 1 клик</li>
+						</ol>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
