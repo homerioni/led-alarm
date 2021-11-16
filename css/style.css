@@ -45,7 +45,7 @@ header .container .row{
 	margin-bottom: 0;
 	transition-duration: .25s;
 }
-.nav_menu ul.menu li a button{
+.nav_menu ul.menu li button{
 	font-family: 'helveticaneuecyrroman';
 	font-size: 16px;
 	color: #da0002;
@@ -56,22 +56,22 @@ header .container .row{
 	border: none;
 	cursor: pointer;
 }
-.nav_menu ul.menu li a button:hover{
+.nav_menu ul.menu li button:hover{
 	color: #fff;
 	text-shadow: 1px 1px 3px #1e51d0, -1px -1px 3px #1e51d0, -1px 1px 3px #1e51d0, 1px -1px 3px #1e51d0, 0px -7px 10px #1e51d0, 0px 7px 10px #1e51d0;
 }
-.nav_menu ul.menu li a button:focus{
+.nav_menu ul.menu li button:focus{
 	outline: none;
 }
-header .rightBox-header{
+header .header-contacts{
 	display: flex;
 	padding: 0;
 	align-items: center;
 }
-.rightBox-header .menu-div-article{
+.header-contacts .menu-div-article{
 	padding: 0;
 }
-.rightBox-header .menu-div-text{
+.header-contacts .menu-div-text{
 	padding:  0;
 	text-align: center;
 	line-height: 18px;
@@ -117,10 +117,10 @@ header .rightBox-header{
 	color: #fff;
 	margin: 20px auto;
 }
-.offer-left{
+.offer-leftBox{
 	position: relative;
 }
-.offer-left img{
+.offer-leftBox img{
 	
 }
 .offer-price{
@@ -147,10 +147,10 @@ header .rightBox-header{
 	font-size: 36px;
 	color: #da0002;
 }
-.offer-right{
+.offer-rightBox{
 	text-align: center;
 }
-.offer-right h2{
+.offer-rightBox h2{
 	font-family: 'helveticaneuecyrbold';
 	font-size: 28px;
 	color: #da0002;

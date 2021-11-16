@@ -15,14 +15,14 @@
 	.offer-form{
 		width: 100%;
 	}
-	.offer-left img{
+	.offer-leftBox img{
 		margin-top: 50px;
 	}
 	.offer-price{
 		top: 20px;
     	left: 35px;
 	}
-	.offer-right h2{
+	.offer-rightBox h2{
 		font-size: 24px;
 	}
 	.offer-separator-text{
@@ -61,14 +61,14 @@
 		line-height: 40px;
 	}
 	header .container .row,
-	.rightBox-header{
+	.header-contacts{
 		flex-direction: row-reverse;
 	}
 	header{
 		padding-top: 20px;
     	padding-bottom: 20px;
 	}
-	header .leftBox-header{
+	header .header-menu{
 		padding: 0;
 		text-align: center;
 	}
@@ -89,7 +89,7 @@
     	top: 0;
     	left: 110px;
 	}
-	.offer-right h2 {
+	.offer-rightBox h2 {
     	font-size: 30px;
 		text-shadow: 2px 2px 3px #fff, -2px -2px 3px #fff, -2px 0 3px #fff, 2px 0 3px #fff;
 	}
@@ -132,7 +132,7 @@
 	.menu-number{
 		margin-left: 0;
 	}
-	.offer-left img{
+	.offer-leftBox img{
 		margin-top: 0;
 	}
 }
@@ -141,10 +141,10 @@
 	body .container{
 		max-width: 450px;
 	}
-	header .rightBox-header{
+	header .header-contacts{
 		width: 90%;
 	}
-	header .leftBox-header{
+	header .header-menu{
 		width: 10%;
 	}
 	.offer-separator-text{
@@ -213,7 +213,7 @@
 	.offer-separator-text{
 		font-size: 15px;
 	}
-	.offer-left img{
+	.offer-leftBox img{
 		margin-top: 0;
 	}
 	.offer-price{
@@ -230,7 +230,7 @@
 	.offer-price-new{
 		font-size: 30px;
 	}
-	.offer-right h2{
+	.offer-rightBox h2{
 		font-size: 26px;
 	}
 	.offer-form{
@@ -291,7 +291,7 @@
 	header{
 		padding: 10px 0;
 	}
-	header .rightBox-header{
+	header .header-contacts{
 		flex-direction: column;
 	}
 	.offer-separator-text{
@@ -312,7 +312,7 @@
 	.offer-price-new{
 		font-size: 28px;
 	}
-	.offer-right h2{
+	.offer-rightBox h2{
 		font-size: 20px;
 	}
 	.countSeconds,
