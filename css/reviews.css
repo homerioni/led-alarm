@@ -1,0 +1,97 @@
+.reviews{
+    padding: 30px 0;
+}
+.reviews-title h2{
+    font-family: 'helveticaneuecyrbold';
+    font-size: 24px;
+    color: #da0002;
+    text-align: center;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+.reviews-item{
+    margin-bottom: 20px;
+    line-height: 18px;
+}
+.reviews-item img{
+    float: left;
+    margin-right: 15px;
+    border-radius: 100%;
+    border: 5px solid #ffd800;
+}
+.reviews-item h2{
+    font-family: 'helveticaneuecyrmedium';
+    font-size: 16px;
+    color: #230000;
+    text-transform: uppercase;
+}
+.reviews-item p{
+    font-family: 'helveticaneuecyrlight';
+    font-size: 15px;
+    color: #230000;
+    margin-top: -6px;
+}
+
+@media (max-width: 767px){
+    .reviews-title h2{
+        font-size: 22px;
+    }
+    .reviews-item h2{
+        font-size: 14px;
+    }
+    .reviews-item p{
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 575px){
+    .reviews-title h2{
+        font-size: 0;
+    }
+    .reviews-title h2::before{
+        content: "ОТЗЫВЫ ПОКУПАТЕЛЕЙ";
+        font-family: 'helveticaneuecyrbold';
+        font-size: 24px;
+        color: #da0002;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    .reviews-item p{
+        padding-left: 130px;
+    }
+}
+
+@media (max-width: 500px){
+    .reviews-item{
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .reviews-item img{
+        float: none;
+        margin-bottom: 10px;
+    }
+    .reviews-item h2{
+        font-size: 16px;
+    }
+    .reviews-item p{
+        padding: 0;
+        margin-bottom: 0;
+        font-size: 14px;
+        text-align: justify;
+    }
+    .reviews{
+        padding: 20px 0;
+    }
+}
+
+@media (max-width: 400px){
+    .reviews-name h2::before{
+        font-size: 21px;
+    }
+}
+
+@media (max-width: 340px){
+    .reviews .reviews-name{
+        padding: 0;
+    }
+}

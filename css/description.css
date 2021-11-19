@@ -1,0 +1,49 @@
+.description{
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+.description h2{
+    text-align: center;
+    font-family: 'helveticaneuecyrbold';
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #da0002;
+    margin-bottom: 10px;
+}
+.description p{
+    font-family: 'helveticaneuecyrlight';
+    font-size: 16px;
+    color: #230000;
+    line-height: 20px;
+}
+
+@media (max-width: 767px){
+    .description-img{
+        text-align: center;
+        margin: 10px 0;
+    }
+}
+
+@media (max-width: 575px){
+    .description{
+        padding: 30px 0;
+    }
+    .description h2{
+        font-size: 18px;
+    }
+    .description p{
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 400px){
+    .description{
+        padding: 25px 0;
+    }
+    .description h2{
+        font-size: 16px;
+    }
+    .description p{
+        font-size: 13px;
+    }
+}
